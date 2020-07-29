@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Shadows Into Light", cursive;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3.5rem;
+}
+.container {
+  width: 100%;
+}
+.row {
+  width: 98.67%;
+  margin: auto;
+}
+.cln1,
+.cln2,
+.cln3 {
+  position: relative;
+  height: 200px;
+  background-color: #adefd1ff;
+  border: 1px solid black;
+  margin-right: 0.665%;
+  margin-left: 0.665%;
+  margin-top: 1.33%;
+  margin-bottom: 1.33%;
+  overflow: hidden;
+}
+section {
+  float: right;
+  border-bottom: 1px solid black;
+  font-weight: bolder;
+  border-left: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+  background-color: #101820ff;
+  color: #fee715ff;
+  font-size: 1.5rem;
+}
+
+p {
+  color: rgb(0, 22, 44);
+  font-size: 1.2rem;
+  font-weight: 800;
+  clear: right;
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .cln1,
+  .cln2,
+  .cln3 {
+    width: 32%;
+    float: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .row {
+    width: 97%;
+  }
+  .cln1,
+  .cln2 {
+    width: 48.67%;
+    float: left;
+  }
+  .cln3 {
+    clear: both;
+  }
+}
+@media (max-width: 767px) {
+  .row {
+    width: 90%;
+  }
+  .cln1,
+  .cln2,
+  .cln3 {
+    width: 98.67%;
+
+    float: left;
+  }
+}
